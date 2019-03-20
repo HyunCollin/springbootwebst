@@ -8,6 +8,7 @@ public class Mcontroller {
 
 	@GetMapping("/main")
 	public String mainPage() {
-		return "main Page" + "test";
+		return "main";
 	}
+
 }
